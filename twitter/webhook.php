@@ -75,12 +75,11 @@ if (isset($_REQUEST['crc_token'])) {
             $a->alert(PROCESSED_MESSAGE, $senderId);
             $a->setTweet($fileName);
             $a->deleteFile($fileName);
-            exit;
         } else {
             $a->alert(DECLINED_MESSAGE, $senderId);
             $a->deleteFile($fileName);
-            exit;
         }
+        exit;
     }
 
     $triggerCheck = $a->triggerCheck($text, TRIGGER_WORD);
