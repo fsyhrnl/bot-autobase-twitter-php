@@ -56,7 +56,7 @@ if (isset($_REQUEST['crc_token'])) {
     if (in_array($senderId, ADMIN_ID) !== false) {
         $a->adminCheck();
     }
-    if (strpos($bio, TRIGGER_OFF) !== false && $senderId != $selfId) {
+    if (strpos($bio, strtolower(TRIGGER_OFF)) !== false && $senderId != $selfId) {
         $a->alert(ALERT_OFF, $senderId);
         exit;
     }
