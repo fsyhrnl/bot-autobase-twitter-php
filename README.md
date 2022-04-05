@@ -16,7 +16,7 @@ ___
 - [x] App permissions pilih yang *Read and write and Direct message*
 
 ## Installation
-1. Isi `CONSUMER KEY, dll` di file `config.php` dan ubah setiap kalimat alert di `settings.php`
+1. Isi `CONSUMER KEY, dll` di file `config.php`
 2. Jalankan `setWebhook.php`
 
 ## Features
