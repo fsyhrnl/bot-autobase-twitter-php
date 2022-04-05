@@ -24,10 +24,10 @@ ___
 ## Features
 - [x] Mengirim Pesan otomatis ketika follback seseorang
 - [x] Filter text dari kata tidak pantas
-- [x] Filter akun sender tidak bisa mengirim *menfess*
-  - [x] jika followers kurang dari 10
-  - [ ] jika akun belum lebih dari 1 bulan *(will be updated soon)* :x:
-  - [ ] jika tweet kurang dari 500 *(will be updated soon)* :x:
+- [x] Filter akun sender tidak bisa mengirim *menfess* jika :
+  - [x] followers kurang dari 10
+  - [ ] akun belum lebih dari 1 bulan *(will be updated soon)* :x:
+  - [ ] tweet kurang dari 500 *(will be updated soon)* :x:
 - [x] Menfess status dengan gambar
 - [x] Menfess lebih dari 280 karakter
 - [x] Mengirim [quick reply](https://developer.twitter.com/en/docs/twitter-api/v1/direct-messages/quick-replies/api-reference/options) button
