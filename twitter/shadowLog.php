@@ -1,5 +1,5 @@
 <?php
-$f = file_get_contents('logs/temp_logs.json');
+$f = file_get_contents('logs/logs.json');
 $f = json_decode($f, true);
 
 echo "<body bgcolor=#cacaca><table width=80% border=0 align='center'><tr>
