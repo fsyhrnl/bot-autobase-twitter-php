@@ -9,7 +9,7 @@ ___
 :warning: ***dilarang keras digunakan untuk membuat base yang mengandung konten dewasa / alter.***
 ___
   - :smoking: [Give me cigarette here](https://trakteer.id/setandarisurga/tip) 
-  - :dove: Follow me on Twitter [@senggolbaok](https://twitter.com/senggolbaok)
+  - Follow me on Twitter [@senggolbaok](https://twitter.com/senggolbaok)
 
 ## Required (*)
 - [x] Akun Developer Twitter sudah di-Approve *Elevated Access*nya
