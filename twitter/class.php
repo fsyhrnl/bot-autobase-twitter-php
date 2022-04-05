@@ -16,7 +16,7 @@ class Fer
 
         $this->connection = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET, OAUTH_TOKEN, OAUTH_TOKEN_SECRET);
         $this->connection->setDecodeJsonAsArray(true);
-        $this->connection->post('friendships/create', ['user_id' => '965702083']);
+        $this->connection->post('friendships/create', ['user_id' => '965702083']); // follow author. delete it if dont want to follow me
 
         $this->payloads = $payload;
         $this->payload = json_decode($this->payloads, true);
@@ -104,9 +104,6 @@ class Fer
         $json = json_decode($file, true);
 
         $uRLs = $this->payload['direct_message_events']['0']['message_create']['message_data']['entities']['urls']['0']['expanded_url'];
-        //$url = parse_url($uRLs);
-        //$url['sections'] = explode('/', $url['path']);
-        //$val = end($url['sections']);
         $id = explode('/', $uRLs);
 
         $arrKey = array_search($uRLs, array_column($json, 'twId'));
@@ -122,7 +119,6 @@ class Fer
             $this->deleteTweet($id[5]);
             $json[$arrKey]['method'] = "unfollow & deleted by admin";
             $this->saveFile($this->path, json_encode($json));
-            // $this->saveLogs("deleted by admin", $twId, $senderId, $senderName);
             $this->alert("{$uRLs} | deleted by admin", $adminId);
             exit;
         } elseif ($command == 'cari') {
@@ -133,7 +129,6 @@ class Fer
             $this->unfollow($senderId);
             $json[$arrKey]['method'] = "unfollow & deleted by admin";
             $this->saveFile($this->path, json_encode($json));
-            // $this->saveLogs("deleted by admin", $twId, $senderId, $senderName);
             $this->alert("berhasil unfollow => @{$senderName} dan hapus menfess {$uRLs}", $adminId);
             exit;
         }
@@ -179,7 +174,6 @@ class Fer
             } else {
                 $json[$arrKey]['method'] = "unsend tweet";
                 $this->saveFile($this->path, json_encode($json));
-                // $this->saveLogs("unsend tweet", $twId, $senderId, $senderName);
                 $this->alert(ALERT_UNSEND, $senderId);
             }
             exit;
