@@ -26,20 +26,20 @@ ___
   - [x] jika followers kurang dari 10
   - [ ] ~akun belum lebih dari 1 bulan~ *(will be updated soon)*
   - [ ] ~tweet kurang dari 500~ *(will be updated soon)*
-- [x] Support menfess lebih dari 280 karakter
+- [x] Menfess status dengan gambar
+- [x] Menfess lebih dari 280 karakter
 - [x] Mengirim [quick reply](https://developer.twitter.com/en/docs/twitter-api/v1/direct-messages/quick-replies/api-reference/options) button
 - [x] Tambahkan kata `OFF` di **Bio** untuk menonaktifkan Base. (Jika tidak ada kata `OFF` di Bio, maka Bot akan berfungsi)
 - [x] Unsend menfess
   - Command `/unsend` untuk menghapus menfess yang terakhir dikirimnya.
   - Atau command `/unsend url` *(menambahkan url manual)* 
 - [x] Command khusus admin : 
-
    - `/delete url` untuk menghapus menfess.
    - `/cari url` untuk mengetahui siapa *Sender* dari menfess *yang dimaksud*
    - `/unfollow url` untuk menghapus menfess sekaligus mengunfollow sendernya
 
 ## Bugs
-- [ ] Not support video/gif *(will be updated soon)*.
+- [ ] Not support video/gif. *(will be updated soon)*.
 
 ## Example & Instruction
 #### Example :
@@ -51,6 +51,8 @@ File `shadowLog.php` dibuat untuk melihat, dan membersihkan logs. [Klik disini u
 
 ## Contributing
 Contributions of all kinds are welcome.
+- Bug reports
+- Fix bugs / add new features
 
 ## License
 This open-source software is distributed under the MIT License. See [License](LICENSE)
