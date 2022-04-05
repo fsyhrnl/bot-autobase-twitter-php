@@ -11,7 +11,7 @@ define('OAUTH_TOKEN_SECRET', '');
 define('WEBHOOK_URL', ''); //https://domain-kamu.com/twitter/webhook.php
 define('ENV_LABEL', ''); //Dev environment label
 
-define('TRIGGER_WORD', '[dog]');
+define('TRIGGER_WORD', 'dog');
 define('ADMIN_ID', ['965702083', '', '']); //User ID Admin (optional)
 define('MINIMAL_FOLLOWERS', '10');
 define('SLEEP_TIME', '20'); //delay ketika post tweet (detik)
