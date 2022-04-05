@@ -1,14 +1,15 @@
 # Autobase Twitter Webhook
 
-Bot Autobase Twitter Using webhooks to receive and deliver real time updates.<br>
+Bot Autobase Twitter using webhooks to receive and deliver real time updates.<br>
   > Ref : https://developer.twitter.com/en/docs/twitter-api/enterprise/account-activity-api/guides/getting-started-with-webhooks
 
 Bot untuk menerima DM lalu mempublikasikannya sebagai Tweet, atau yang biasa disebut *menfess*.<br>
-*Seperti akun @bdngfess, @bandungfess, @sunda_fess, @codingfess dll*.<br><br>
-dilarang keras digunakan untuk membuat base yang mengandung konten dewasa / alter.
+*Seperti akun @bdngfess, @bandungfess, @sunda_fess, @codingfess dll*.<br>
+___
+:warning: ***dilarang keras digunakan untuk membuat base yang mengandung konten dewasa / alter.***
 ___
   - :smoking: [Give me cigarette here](https://trakteer.id/setandarisurga/tip) 
-  - Follow me on Twitter [@senggolbaok](https://twitter.com/senggolbaok)
+  - :dove: Follow me on Twitter [@senggolbaok](https://twitter.com/senggolbaok)
 
 ## Required (*)
 - [x] Akun Developer Twitter sudah di-Approve *Elevated Access*nya
@@ -24,8 +25,8 @@ ___
 - [x] Filter text dari kata tidak pantas
 - [x] Filter akun sender tidak bisa mengirim *menfess*
   - [x] jika followers kurang dari 10
-  - [ ] ~akun belum lebih dari 1 bulan~ *(will be updated soon)*
-  - [ ] ~tweet kurang dari 500~ *(will be updated soon)*
+  - [ ] akun belum lebih dari 1 bulan *(will be updated soon)* :x:
+  - [ ] tweet kurang dari 500 *(will be updated soon)* :x:
 - [x] Menfess status dengan gambar
 - [x] Menfess lebih dari 280 karakter
 - [x] Mengirim [quick reply](https://developer.twitter.com/en/docs/twitter-api/v1/direct-messages/quick-replies/api-reference/options) button
@@ -39,7 +40,7 @@ ___
    - `/unfollow url` untuk menghapus menfess sekaligus mengunfollow sendernya
 
 ## Bugs
-- [ ] Not support video/gif. *(will be updated soon)*.
+- [ ] Not support video/gif. *(will be updated soon)*. :x:
 
 ## Example & Instruction
 #### Example :
@@ -50,9 +51,9 @@ Setiap ada yang mengirim atau unsend menfess, logs-nya akan disimpan dalam bentu
 File `shadowLog.php` dibuat untuk melihat, dan membersihkan logs. [Klik disini untuk contoh logs](contoh/git9.png)
 
 ## Contributing
-Contributions of all kinds are welcome.
-- Bug reports
-- Fix bugs / add new features
+All kinds of contributions are welcome.
+- Bug reports.
+- Fix bugs / add new features.
 
 ## License
 This open-source software is distributed under the MIT License. See [License](LICENSE)
