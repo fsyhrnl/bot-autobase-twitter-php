@@ -19,6 +19,7 @@ ___
 ## Installation
 1. Isi `CONSUMER KEY, dll` di file `config.php`
 2. Jalankan `setWebhook.php`
+3. Done~
 
 ## Features
 - [x] Mengirim Pesan otomatis ketika follback seseorang
@@ -50,10 +51,10 @@ ___
 Setiap ada yang mengirim atau unsend menfess, logs-nya akan disimpan dalam bentuk json. Jika logs dihapus maka (admin dan sender) tidak akan bisa menghapus menfess (menggunakan *Command*). <br><br>
 File `shadowLog.php` dibuat untuk melihat, dan membersihkan logs. [Klik disini untuk contoh logs](contoh/git9.png)
 
+## License
+This open-source software is distributed under the MIT License. See [License](LICENSE)
+
 ## Contributing
 All kinds of contributions are welcome.
 - Bug reports.
 - Fix bugs / add new features.
-
-## License
-This open-source software is distributed under the MIT License. See [License](LICENSE)
