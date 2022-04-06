@@ -1,21 +1,14 @@
-# Autobase Twitter Webhook
+## Bot Autobase Twitter (PHP)
 
-Bot Autobase Twitter using webhooks to receive and deliver real time updates.<br>
-  > Ref : https://developer.twitter.com/en/docs/twitter-api/enterprise/account-activity-api/guides/getting-started-with-webhooks
-
-Library :
- > [php-twitter-webhook-account-activity-api](https://github.com/sadaimudiNaadhar/php-twitter-webhook-account-activity-api)
-
- > [twitteroauth](https://github.com/abraham/twitteroauth)
-
-
+Bot Menfess / Autobase Twitter, using webhooks to receive and deliver real time updates.<br>
 Bot untuk menerima DM lalu mempublikasikannya sebagai Tweet, atau yang biasa disebut *menfess*.<br>
-*Seperti akun @bdngfess, @bandungfess, @sunda_fess, @codingfess dll*.<br>
+*Seperti akun @bdngfess, @bandungfess, @sunda_fess, @codingfess dll*. <br>
+:arrow_right:[Example](#example--instruction)
 ___
 :warning: ***dilarang keras digunakan untuk membuat base yang mengandung konten dewasa / alter.***
 ___
-  - :smoking: [Give me cigarette here](https://trakteer.id/setandarisurga/tip) 
-  - Follow me on Twitter [@senggolbaok](https://twitter.com/senggolbaok)
+- Coded with :smoking: by [@senggolbaok](https://twitter.com/senggolbaok)
+- :smoking: Buy Me a Cigarette : https://trakteer.id/setandarisurga
 
 ## Required (*)
 - [x] Akun Developer Twitter sudah di-Approve *Elevated Access*nya
@@ -49,14 +42,6 @@ ___
 ## Bugs
 - [ ] Not support video/gif. *(will be updated soon)*. :x:
 
-## Example & Instruction
-#### Example :
-[Klik disini untuk contoh Bot](contoh/)
-___
-#### Instruction - /logs
-Setiap ada yang mengirim atau unsend menfess, logs-nya akan disimpan dalam bentuk json. Jika logs dihapus maka (admin dan sender) tidak akan bisa menghapus menfess (menggunakan *Command*). <br><br>
-File `shadowLog.php` dibuat untuk melihat, dan membersihkan logs. [Klik disini untuk contoh logs](contoh/git9.png)
-
 ## License
 This open-source software is distributed under the MIT License. See [License](LICENSE)
 
@@ -64,3 +49,36 @@ This open-source software is distributed under the MIT License. See [License](LI
 All kinds of contributions are welcome.
 - Bug reports.
 - Fix bugs / add new features.
+
+## Example & Instruction
+
+#### - Send Automated Messages when Follback someone
+![This is an image](contoh/git1.png)
+#### - Filter message
+![This is an image](contoh/git2.png)
+#### - Quick reply button
+![This is an image](contoh/git3.png)
+#### - Send Message when success posted as Tweet
+![This is an image](contoh/git4.png)
+#### - More than 280 Character (w/ Image)
+![This is an image](contoh/git5.png)
+<br><br>![This is an image](contoh/git6.png)
+#### - More than 280 Character (no Image)
+![This is an image](contoh/git11.png)
+#### - Unsend menfess
+![This is an image](contoh/git7.png)
+#### Command *Admin Only*
+![This is an image](contoh/git8.png)
+___
+#### Instruction - /logs
+Setiap ada yang mengirim atau unsend menfess, logs-nya akan disimpan dalam bentuk json. Jika logs dihapus maka (admin dan sender) tidak akan bisa menghapus menfess (menggunakan *Command*). <br><br>
+File `shadowLog.php` dibuat untuk melihat, dan membersihkan logs. <br><br>
+![This is an image](contoh/git9.png)
+
+## Reference & Library
+
+> Ref : https://developer.twitter.com/en/docs/twitter-api/enterprise/account-activity-api/guides/getting-started-with-webhooks
+
+> Lib : [php-twitter-webhook-account-activity-api](https://github.com/sadaimudiNaadhar/php-twitter-webhook-account-activity-api)
+
+> Lib : [twitteroauth](https://github.com/abraham/twitteroauth)
