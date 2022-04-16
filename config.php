@@ -13,7 +13,7 @@ define("ENV_LABEL", ""); //Dev environment label
 define("TRIGGER_WORD", "dog");
 define("ADMIN_ID", ["965702083", "", ""]); //User ID Admin (optional)
 define("MINIMAL_FOLLOWERS", "10");
-define("SLEEP_TIME", "5"); //delay ketika post tweet (detik)
+define("SLEEP_TIME", "15"); //delay ketika post tweet (detik)
 
 define("TRIGGER_OFF", "off"); //tambahkan kata off di bio maka bot akan nonaktif
 
