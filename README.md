@@ -1,3 +1,8 @@
+## NO LONGER AVAILABLE
+Sorry, this script no longer available | reason : https://twitter.com/TwitterDev/status/1649191520250245121<br>
+Still work if using Enterprise APIs
+
+
 ## Bot Autobase Twitter (PHP)
 
 Bot Menfess / Autobase Twitter, using webhooks to receive and deliver real time updates.<br>
@@ -7,8 +12,7 @@ Bot untuk menerima DM lalu mempublikasikannya sebagai Tweet, atau yang biasa dis
 ___
 :warning: ***dilarang keras digunakan untuk membuat base yang mengandung konten dewasa / alter.***
 ___
-- Coded with :smoking: by [@senggolbaok](https://twitter.com/senggolbaok)
-- :smoking: Buy Me a Cigarette : https://trakteer.id/setandarisurga
+- Coded with :smoking: by @senggolbaok
 
 ## Required (*)
 - [x] Akun Developer Twitter sudah di-Approve *Elevated Access*nya
