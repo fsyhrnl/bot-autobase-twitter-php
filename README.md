@@ -1,6 +1,6 @@
 ## NO LONGER AVAILABLE
 Sorry, this script no longer available | reason : https://twitter.com/TwitterDev/status/1649191520250245121<br>
-Still work if using Enterprise APIs
+Still work if using Enterprise APIs | reason : https://twitter.com/TwitterDev/status/1649191522485817345<br>
 
 
 ## Bot Autobase Twitter (PHP)
